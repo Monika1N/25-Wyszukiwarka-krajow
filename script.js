@@ -9,7 +9,11 @@ function searchCountries() {
 	$.ajax({
   		url: url + countryName,
   		method: 'GET',
-  		success: showCountriesList
+  		success: showCountriesList,
+  	error: function() {
+  		countriesList.empty();
+  		$('<li>').text('COUNTRY DOES NOT EXIST').css('color', 'red').appendTo(countriesList);
+  	}
   	});	
 }
 
