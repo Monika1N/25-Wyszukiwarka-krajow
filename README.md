@@ -1,2 +1,2 @@
-# Zadanie-12.6-Wyszukiwarka-krajow
-https://monika1n.github.io/Zadanie-12.6-Wyszukiwarka-krajow/ 
+# Wyszukiwarka krajów
+https://monika1n.github.io/25-Wyszukiwarka-krajow/
